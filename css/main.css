@@ -163,3 +163,8 @@ footer{
   height: 500px;
   width: auto;
 }
+
+.contactName, .contactEmail {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}

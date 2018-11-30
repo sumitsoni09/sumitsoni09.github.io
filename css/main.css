@@ -1,0 +1,165 @@
+/* Index */
+
+body {
+  background-image: url("images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.indexHead {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.fillImage {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.travel {
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+  margin: auto;
+  border: 3px solid blue;
+}
+
+.navWrap {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.indexNav {
+  max-width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.github, .linkedin, .bio, .resume, .portfolio, .contact {
+  max-width: 100%;
+  width: auto;
+  height: 50px;
+  border-radius: 100px;
+  margin:auto;
+}
+
+
+a {
+  max-width: 100%;
+  height: auto;
+  text-decoration: none;
+}
+
+footer{
+  max-width: 100%;
+  height: auto;
+  text-align: right;
+  margin: auto;
+}
+
+/* About Me */
+.aboutHead {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.headShot {
+  margin: 0 auto;
+  border: 3px solid blue;
+  height: 300px;
+  width: auto;
+
+}
+
+.fillHead {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.aboutSumit{
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+/* Portfolio */
+.portfolioHead {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.portfolioCover{
+  max-width: 100%;
+  margin: 0 auto;
+  border: 3px solid blue;
+  height: 500px;
+  width: auto;
+}
+
+.portfolioNav{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.budapest, .spooky, .skills, .redagame {
+  max-width: 100%;
+  border: 1px solid white;
+  height: auto;
+  width: 500px;
+}
+
+/* contact Page */
+.contactHead {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.contactMe {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 3px solid blue;
+  height: 500px;
+  width: auto;
+}

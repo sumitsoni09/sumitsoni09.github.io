@@ -50,8 +50,18 @@ body {
   height: 50px;
   border-radius: 100px;
   margin:auto;
+  border: 3px solid black;
+  background-color: white;
 }
 
+.gitCode {
+  max-width: 100%;
+  width: auto;
+  height: 50px;
+  border-radius: 100px;
+  margin:auto;
+  border: 3px solid blue;
+}
 
 a {
   max-width: 100%;
@@ -106,7 +116,7 @@ footer{
   font-size: 20px;
   font-family: 'Cinzel', serif;
   line-height: 30px;
-  text-transform: capitalize;
+
 }
 
 /* Portfolio */
@@ -140,7 +150,7 @@ footer{
 
 .budapest, .spooky, .skills, .redagame {
   max-width: 100%;
-  border: 1px solid white;
+  border: 3px solid orange;
   height: auto;
   width: 500px;
 }

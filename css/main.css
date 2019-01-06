@@ -29,7 +29,10 @@ body {
   width: 800px;
   height: auto;
   margin: auto;
-  border: 3px solid blue;
+  border-top: 8px double blue;
+  border-bottom: 8px double red;
+  border-left: 4px double;
+  border-right: 4px double;
 }
 
 .navWrap {

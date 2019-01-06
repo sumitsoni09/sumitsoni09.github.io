@@ -69,11 +69,10 @@ a {
   text-decoration: none;
 }
 
-footer{
+footer {
   max-width: 100%;
   height: auto;
   text-align: right;
-  margin: auto;
 }
 
 /* About Me */
@@ -108,15 +107,15 @@ footer{
   height: auto;
 }
 
-.aboutSumit{
+.aboutSumit {
   max-width: 100%;
-  width: 500px;
+  width: 800px;
   height: auto;
   margin: auto;
   font-size: 20px;
   font-family: 'Cinzel', serif;
   line-height: 30px;
-
+  text-align: justify;
 }
 
 /* Portfolio */
@@ -130,7 +129,7 @@ footer{
   text-transform: uppercase;
 }
 
-.portfolioCover{
+.portfolioCover {
   max-width: 100%;
   margin: 0 auto;
   border: 3px solid blue;
@@ -138,7 +137,7 @@ footer{
   width: auto;
 }
 
-.portfolioNav{
+.portfolioNav {
   max-width: 100%;
   height: auto;
   text-align: center;
@@ -168,10 +167,13 @@ footer{
 
 .contactMe {
   max-width: 100%;
-  margin: 0 auto;
-  border: 3px solid blue;
-  height: 500px;
-  width: auto;
+  width: 800px;
+  height: 300;
+  margin: auto;
+  border-top: 8px double blue;
+  border-bottom: 8px double red;
+  border-left: 4px double;
+  border-right: 4px double;
 }
 
 .contactName, .contactEmail {

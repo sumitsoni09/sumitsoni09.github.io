@@ -1,7 +1,7 @@
 /* Index */
 
 body {
-  background-image: url("images/background.jpg");
+  background-image: linear-gradient(#d1ffba	, lightpink	, #b8cbff);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -29,10 +29,11 @@ body {
   width: 800px;
   height: auto;
   margin: auto;
-  border-top: 8px double blue;
-  border-bottom: 8px double red;
-  border-left: 4px double;
-  border-right: 4px double;
+  border-top: 8px double #fbb852;
+  border-bottom: 8px double #fb58c3;
+  border-left: 8px double #68ecff;
+  border-right: 8px double #68ecff;
+  border-style: ridge;
 }
 
 .navWrap {
@@ -91,7 +92,11 @@ footer {
 
 .headShot {
   margin: 0 auto;
-  border: 3px solid blue;
+  border-top: 8px double #fbb852;
+  border-bottom: 8px double #fb58c3;
+  border-left: 8px double #68ecff;
+  border-right: 8px double #68ecff;
+  border-style: ridge;
   height: 300px;
   width: auto;
 
@@ -135,7 +140,11 @@ footer {
 .portfolioCover {
   max-width: 100%;
   margin: 0 auto;
-  border: 3px solid blue;
+  border-top: 8px double #fbb852;
+  border-bottom: 8px double #fb58c3;
+  border-left: 8px double #68ecff;
+  border-right: 8px double #68ecff;
+  border-style: ridge;
   height: 500px;
   width: auto;
 }
@@ -173,10 +182,12 @@ footer {
   width: 800px;
   height: 300;
   margin: auto;
-  border-top: 8px double blue;
-  border-bottom: 8px double red;
-  border-left: 4px double;
-  border-right: 4px double;
+  border-top: 8px double #fbb852;
+  border-bottom: 8px double #fb58c3;
+  border-left: 8px double #68ecff;
+  border-right: 8px double #68ecff;
+  border-style: ridge;
+  background-image: radial-gradient(white, lightgrey, black);
 }
 
 .contactName, .contactEmail {

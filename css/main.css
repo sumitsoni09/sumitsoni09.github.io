@@ -3,7 +3,7 @@
 body {
   background-image: linear-gradient(#d1ffba	, lightpink	, #b8cbff);
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
 }
 

@@ -1,7 +1,7 @@
 /* Index */
 
 body {
-  background-image: linear-gradient(#d1ffba	, lightpink	, #b8cbff);
+  background-image: linear-gradient(lightpink, #b8cbff, #d1ffba);
   background-position: center;
   background-size: auto;
   background-attachment: fixed;
@@ -49,14 +49,69 @@ body {
   margin: 20px auto;
 }
 
-.github, .linkedin, .bio, .resume, .portfolio, .contact {
+.github, .linkedin, .bio, .resume, .portfolio, .contact, .home {
   max-width: 100%;
   width: auto;
-  height: 50px;
+  height: 80px;
   border-radius: 100px;
-  margin:auto;
-  border: 3px solid black;
-  background-color: white;
+  margin: auto;
+  background-color: lightgrey;
+}
+
+.github {
+  border: 7px outset #FF9090;
+}
+
+.home{
+  border: 7px outset #DC94FF;
+}
+
+.linkedin {
+  border: 7px outset #FF6FFC;
+}
+
+.bio {
+  border: 7px outset #77E0FF;
+}
+
+.resume {
+  border: 7px outset #97FF9A;
+}
+
+.portfolio {
+  border: 7px outset #FDFF98;
+}
+
+.contact {
+  border: 7px outset #FFC366;
+}
+
+.github:hover {
+  border: 7px inset red;
+}
+
+.home:hover{
+  border: 7px inset #AB00FF;
+}
+
+.linkedin:hover {
+  border: 7px inset magenta;
+}
+
+.bio:hover {
+  border: 7px inset #00CDFF;
+}
+
+.resume:hover {
+  border: 7px inset #00FF09;
+}
+
+.portfolio:hover {
+  border: 7px inset #F7FF00;
+}
+
+.contact:hover {
+  border: 7px inset #FF9A00;
 }
 
 .gitCode {
@@ -65,7 +120,7 @@ body {
   height: 50px;
   border-radius: 100px;
   margin:auto;
-  border: 3px solid blue;
+  border: 3px solid #68ecff;
 }
 
 a {

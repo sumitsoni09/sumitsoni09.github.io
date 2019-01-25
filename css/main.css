@@ -1,11 +1,11 @@
 /* Index */
 
 body {
-  background-image: linear-gradient(lightpink, #b8cbff, #d1ffba);
+  background-image: linear-gradient(purple, yellow);
   background-position: center;
   background-size: auto;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: space;
 }
 
 .indexHead {
@@ -52,7 +52,7 @@ body {
 .github, .linkedin, .bio, .resume, .portfolio, .contact, .home {
   max-width: 100%;
   width: auto;
-  height: 80px;
+  height: 100px;
   border-radius: 100px;
   margin: auto;
   background-color: lightgrey;

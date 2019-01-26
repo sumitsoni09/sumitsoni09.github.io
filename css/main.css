@@ -5,6 +5,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .indexHead {
@@ -54,7 +55,7 @@ body {
   height: 100px;
   border-radius: 100px;
   margin: auto;
-  background-color: lightgrey;
+  background-color: white;
 }
 
 .github {
@@ -245,7 +246,7 @@ footer {
   background-image: radial-gradient(white, lightgrey, black);
 }
 
-.contactName, .contactEmail {
+.contactName, .contactEmail, .contactCity {
   text-align: center;
   font-family: 'Cinzel', serif;
 }

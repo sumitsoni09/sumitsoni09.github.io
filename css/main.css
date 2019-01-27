@@ -30,10 +30,10 @@ body {
   width: 800px;
   height: auto;
   margin: auto;
-  border-top: 8px double #fbb852;
-  border-bottom: 8px double #fb58c3;
-  border-left: 8px double #68ecff;
-  border-right: 8px double #68ecff;
+  border-top: 10px double #fbb852;
+  border-bottom: 10px double #fb58c3;
+  border-left: 10px double #68ecff;
+  border-right: 10px double #68ecff;
   border-style: ridge;
 }
 
@@ -148,10 +148,10 @@ footer {
 
 .headShot {
   margin: 0 auto;
-  border-top: 8px double #fbb852;
-  border-bottom: 8px double #fb58c3;
-  border-left: 8px double #68ecff;
-  border-right: 8px double #68ecff;
+  border-top: 10px double #fbb852;
+  border-bottom: 10px double #fb58c3;
+  border-left: 10px double #68ecff;
+  border-right: 10px double #68ecff;
   border-style: ridge;
   height: 300px;
   width: auto;
@@ -196,10 +196,10 @@ footer {
 .portfolioCover {
   max-width: 100%;
   margin: 0 auto;
-  border-top: 8px double #fbb852;
-  border-bottom: 8px double #fb58c3;
-  border-left: 8px double #68ecff;
-  border-right: 8px double #68ecff;
+  border-top: 10px double #fbb852;
+  border-bottom: 10px double #fb58c3;
+  border-left: 10px double #68ecff;
+  border-right: 10px double #68ecff;
   border-style: ridge;
   height: 500px;
   width: auto;
@@ -238,11 +238,10 @@ footer {
   width: 800px;
   height: 300;
   margin: auto;
-  border-top: 8px double #fbb852;
-  border-bottom: 8px double #fb58c3;
-  border-left: 8px double #68ecff;
-  border-right: 8px double #68ecff;
-  border-style: ridge;
+  border-top: 10px ridge #fbb852;
+  border-bottom: 10px ridge #fb58c3;
+  border-left: 10px ridge #68ecff;
+  border-right: 10px ridge #68ecff;
   background-image: radial-gradient(white, lightgrey, black);
 }
 

@@ -1,11 +1,12 @@
 /* Index */
 
 body {
-  background-image: linear-gradient(purple, yellow);
+  background-image: linear-gradient(black, grey);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  color: white;
 }
 
 .indexHead {
@@ -46,6 +47,7 @@ body {
 .indexNav {
   max-width: 100%;
   text-align: center;
+  letter-spacing: 20px;
   margin: 20px auto;
 }
 
@@ -62,65 +64,56 @@ body {
   border: 7px outset #FF9090;
 }
 
-.home{
-  border: 7px outset #DC94FF;
-}
-
-.linkedin {
-  border: 7px outset #FF6FFC;
-}
-
-.bio {
-  border: 7px outset #77E0FF;
-}
-
-.resume {
-  border: 7px outset #97FF9A;
-}
-
-.portfolio {
-  border: 7px outset #FDFF98;
-}
-
-.contact {
-  border: 7px outset #FFC366;
-}
-
 .github:hover {
   border: 7px inset red;
+}
+
+.home{
+  border: 7px outset #DC94FF;
 }
 
 .home:hover{
   border: 7px inset #AB00FF;
 }
 
+.linkedin {
+  border: 7px outset #FF6FFC;
+}
+
 .linkedin:hover {
   border: 7px inset magenta;
+}
+
+.bio {
+  border: 7px outset #77E0FF;
 }
 
 .bio:hover {
   border: 7px inset #00CDFF;
 }
 
+.resume {
+  border: 7px outset #97FF9A;
+}
+
 .resume:hover {
   border: 7px inset #00FF09;
+}
+
+.portfolio {
+  border: 7px outset #FDFF98;
 }
 
 .portfolio:hover {
   border: 7px inset #F7FF00;
 }
 
-.contact:hover {
-  border: 7px inset #FF9A00;
+.contact {
+  border: 7px outset #FFC366;
 }
 
-.gitCode {
-  max-width: 100%;
-  width: auto;
-  height: 50px;
-  border-radius: 100px;
-  margin:auto;
-  border: 3px solid #68ecff;
+.contact:hover {
+  border: 7px inset #FF9A00;
 }
 
 a {
@@ -217,9 +210,32 @@ footer {
 
 .budapest, .spooky, .skills, .redagame {
   max-width: 100%;
-  border: 3px solid orange;
+  border: 5px solid orange;
   height: auto;
   width: 500px;
+}
+
+.budapest:hover, .spooky:hover, .skills:hover, .redagame:hover {
+  border-top: 5px double #fbb852;
+  border-bottom: 5px double #fb58c3;
+  border-left: 5px double #68ecff;
+  border-right: 5px double #68ecff;
+  border-style: ridge;
+}
+
+.gitCode {
+  max-width: 100%;
+  width: auto;
+  height: 50px;
+  border-radius: 100px;
+  margin:auto;
+  border: 5px solid #68ecff;
+  border-style: outset;
+}
+
+.gitCode:hover {
+  border: 5px solid #F7FF00;
+  border-style: inset;
 }
 
 /* contact Page */

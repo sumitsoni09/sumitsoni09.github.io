@@ -154,9 +154,9 @@ footer {
 .fillHead {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
   max-width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .about {
